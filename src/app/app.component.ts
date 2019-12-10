@@ -737,7 +737,6 @@ export class AppComponent {
     let myData;
     this.data.forEach(aPackage => {
       myData = aPackage.photos.filter(photo => photo.meta_type === "IMAGE");
-
       console.log(myData[0].medium_content);
     });
   }
